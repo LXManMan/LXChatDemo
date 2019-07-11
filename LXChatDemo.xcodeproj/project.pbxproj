@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4C37D422D47FCB001068A6 /* LXChatImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C37D322D47FCB001068A6 /* LXChatImageCell.m */; };
+		2B4C37D722D48899001068A6 /* LXChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C37D622D48899001068A6 /* LXChatBaseCell.m */; };
+		2B4C37DA22D48983001068A6 /* LXChatMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C37D922D48983001068A6 /* LXChatMessageTextCell.m */; };
+		2B4C37DD22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C37DC22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.m */; };
+		2B8BBE1122D338AC007F4E85 /* LXChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BBE1022D338AC007F4E85 /* LXChatModel.m */; };
+		2B8BBE1422D34A1D007F4E85 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B8BBE1322D34A1D007F4E85 /* chat.json */; };
+		2BBB0E8022CEF23B007AA397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0E7F22CEF23B007AA397 /* AppDelegate.m */; };
+		2BBB0E8322CEF23B007AA397 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0E8222CEF23B007AA397 /* ViewController.m */; };
+		2BBB0E8622CEF23B007AA397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0E8422CEF23B007AA397 /* Main.storyboard */; };
+		2BBB0E8822CEF23C007AA397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0E8722CEF23C007AA397 /* Assets.xcassets */; };
+		2BBB0E8B22CEF23C007AA397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBB0E8922CEF23C007AA397 /* LaunchScreen.storyboard */; };
+		2BBB0E8E22CEF23C007AA397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0E8D22CEF23C007AA397 /* main.m */; };
+		2BBB0E9822CEF23C007AA397 /* LXChatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0E9722CEF23C007AA397 /* LXChatDemoTests.m */; };
+		2BBB0EA322CEF23C007AA397 /* LXChatDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0EA222CEF23C007AA397 /* LXChatDemoUITests.m */; };
+		2BBB0EB322CEFA83007AA397 /* LXNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0EB222CEFA83007AA397 /* LXNavController.m */; };
+		2BBB0EB622CEFC9B007AA397 /* LXBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0EB522CEFC9B007AA397 /* LXBaseController.m */; };
+		2BBB0EB922CEFCD8007AA397 /* LXChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBB0EB822CEFCD8007AA397 /* LXChatController.m */; };
+		6AB9B18F433A8051C29A0E5E /* libPods-LXChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7441B9D1856D9C289BE81A /* libPods-LXChatDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBB0E9422CEF23C007AA397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBB0E7322CEF23B007AA397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBB0E7A22CEF23B007AA397;
+			remoteInfo = LXChatDemo;
+		};
+		2BBB0E9F22CEF23C007AA397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBB0E7322CEF23B007AA397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBB0E7A22CEF23B007AA397;
+			remoteInfo = LXChatDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7441B9D1856D9C289BE81A /* libPods-LXChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E24948F10BC96A5B4A102C /* Pods-LXChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXChatDemo/Pods-LXChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2B4C37D222D47FCB001068A6 /* LXChatImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatImageCell.h; sourceTree = "<group>"; };
+		2B4C37D322D47FCB001068A6 /* LXChatImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatImageCell.m; sourceTree = "<group>"; };
+		2B4C37D522D48899001068A6 /* LXChatBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatBaseCell.h; sourceTree = "<group>"; };
+		2B4C37D622D48899001068A6 /* LXChatBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatBaseCell.m; sourceTree = "<group>"; };
+		2B4C37D822D48983001068A6 /* LXChatMessageTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatMessageTextCell.h; sourceTree = "<group>"; };
+		2B4C37D922D48983001068A6 /* LXChatMessageTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatMessageTextCell.m; sourceTree = "<group>"; };
+		2B4C37DB22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXChatBaseCell+CellIdentifier.h"; sourceTree = "<group>"; };
+		2B4C37DC22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LXChatBaseCell+CellIdentifier.m"; sourceTree = "<group>"; };
+		2B8BBE0D22D32F51007F4E85 /* LXChatConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatConfig.h; sourceTree = "<group>"; };
+		2B8BBE0F22D338AC007F4E85 /* LXChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatModel.h; sourceTree = "<group>"; };
+		2B8BBE1022D338AC007F4E85 /* LXChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatModel.m; sourceTree = "<group>"; };
+		2B8BBE1322D34A1D007F4E85 /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		2BBB0E7B22CEF23B007AA397 /* LXChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBB0E7E22CEF23B007AA397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BBB0E7F22CEF23B007AA397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BBB0E8122CEF23B007AA397 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BBB0E8222CEF23B007AA397 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BBB0E8522CEF23B007AA397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BBB0E8722CEF23C007AA397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBB0E8A22CEF23C007AA397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BBB0E8C22CEF23C007AA397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBB0E8D22CEF23C007AA397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBB0E9322CEF23C007AA397 /* LXChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBB0E9722CEF23C007AA397 /* LXChatDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatDemoTests.m; sourceTree = "<group>"; };
+		2BBB0E9922CEF23C007AA397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBB0E9E22CEF23C007AA397 /* LXChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBB0EA222CEF23C007AA397 /* LXChatDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatDemoUITests.m; sourceTree = "<group>"; };
+		2BBB0EA422CEF23C007AA397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBB0EB022CEF986007AA397 /* LXChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChat.pch; sourceTree = "<group>"; };
+		2BBB0EB122CEFA83007AA397 /* LXNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNavController.h; sourceTree = "<group>"; };
+		2BBB0EB222CEFA83007AA397 /* LXNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNavController.m; sourceTree = "<group>"; };
+		2BBB0EB422CEFC9B007AA397 /* LXBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBaseController.h; sourceTree = "<group>"; };
+		2BBB0EB522CEFC9B007AA397 /* LXBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBaseController.m; sourceTree = "<group>"; };
+		2BBB0EB722CEFCD8007AA397 /* LXChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChatController.h; sourceTree = "<group>"; };
+		2BBB0EB822CEFCD8007AA397 /* LXChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChatController.m; sourceTree = "<group>"; };
+		753C8D98127776196F9D93DD /* Pods-LXChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXChatDemo/Pods-LXChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBB0E7822CEF23B007AA397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB9B18F433A8051C29A0E5E /* libPods-LXChatDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E9022CEF23C007AA397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E9B22CEF23C007AA397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8BBE0822D31FC0007F4E85 /* LXBase */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB0EB122CEFA83007AA397 /* LXNavController.h */,
+				2BBB0EB222CEFA83007AA397 /* LXNavController.m */,
+				2BBB0EB422CEFC9B007AA397 /* LXBaseController.h */,
+				2BBB0EB522CEFC9B007AA397 /* LXBaseController.m */,
+			);
+			path = LXBase;
+			sourceTree = "<group>";
+		};
+		2B8BBE0922D31FDA007F4E85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B4C37D522D48899001068A6 /* LXChatBaseCell.h */,
+				2B4C37D622D48899001068A6 /* LXChatBaseCell.m */,
+				2B4C37DB22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.h */,
+				2B4C37DC22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.m */,
+				2B4C37D822D48983001068A6 /* LXChatMessageTextCell.h */,
+				2B4C37D922D48983001068A6 /* LXChatMessageTextCell.m */,
+				2B4C37D222D47FCB001068A6 /* LXChatImageCell.h */,
+				2B4C37D322D47FCB001068A6 /* LXChatImageCell.m */,
+				2B8BBE0D22D32F51007F4E85 /* LXChatConfig.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B8BBE0E22D3389C007F4E85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BBE0F22D338AC007F4E85 /* LXChatModel.h */,
+				2B8BBE1022D338AC007F4E85 /* LXChatModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BBB0E7222CEF23B007AA397 = {
+			isa = PBXGroup;
+			children = (
+				2BBB0E7D22CEF23B007AA397 /* LXChatDemo */,
+				2BBB0E9622CEF23C007AA397 /* LXChatDemoTests */,
+				2BBB0EA122CEF23C007AA397 /* LXChatDemoUITests */,
+				2BBB0E7C22CEF23B007AA397 /* Products */,
+				3CDD54515063A1611A38C550 /* Pods */,
+				EEA0B7E778B49F4090E39F9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBB0E7C22CEF23B007AA397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB0E7B22CEF23B007AA397 /* LXChatDemo.app */,
+				2BBB0E9322CEF23C007AA397 /* LXChatDemoTests.xctest */,
+				2BBB0E9E22CEF23C007AA397 /* LXChatDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBB0E7D22CEF23B007AA397 /* LXChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB0E7E22CEF23B007AA397 /* AppDelegate.h */,
+				2BBB0E7F22CEF23B007AA397 /* AppDelegate.m */,
+				2BBB0E8122CEF23B007AA397 /* ViewController.h */,
+				2BBB0E8222CEF23B007AA397 /* ViewController.m */,
+				2BBB0EB722CEFCD8007AA397 /* LXChatController.h */,
+				2BBB0EB822CEFCD8007AA397 /* LXChatController.m */,
+				2B8BBE0E22D3389C007F4E85 /* Models */,
+				2B8BBE0922D31FDA007F4E85 /* Views */,
+				2B8BBE0822D31FC0007F4E85 /* LXBase */,
+				2BBB0E8422CEF23B007AA397 /* Main.storyboard */,
+				2BBB0E8722CEF23C007AA397 /* Assets.xcassets */,
+				2BBB0E8922CEF23C007AA397 /* LaunchScreen.storyboard */,
+				2B8BBE1322D34A1D007F4E85 /* chat.json */,
+				2BBB0E8C22CEF23C007AA397 /* Info.plist */,
+				2BBB0E8D22CEF23C007AA397 /* main.m */,
+				2BBB0EB022CEF986007AA397 /* LXChat.pch */,
+			);
+			path = LXChatDemo;
+			sourceTree = "<group>";
+		};
+		2BBB0E9622CEF23C007AA397 /* LXChatDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB0E9722CEF23C007AA397 /* LXChatDemoTests.m */,
+				2BBB0E9922CEF23C007AA397 /* Info.plist */,
+			);
+			path = LXChatDemoTests;
+			sourceTree = "<group>";
+		};
+		2BBB0EA122CEF23C007AA397 /* LXChatDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBB0EA222CEF23C007AA397 /* LXChatDemoUITests.m */,
+				2BBB0EA422CEF23C007AA397 /* Info.plist */,
+			);
+			path = LXChatDemoUITests;
+			sourceTree = "<group>";
+		};
+		3CDD54515063A1611A38C550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				753C8D98127776196F9D93DD /* Pods-LXChatDemo.debug.xcconfig */,
+				20E24948F10BC96A5B4A102C /* Pods-LXChatDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEA0B7E778B49F4090E39F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7441B9D1856D9C289BE81A /* libPods-LXChatDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBB0E7A22CEF23B007AA397 /* LXChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBB0EA722CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemo" */;
+			buildPhases = (
+				98C6475543203AFDA50E37E4 /* [CP] Check Pods Manifest.lock */,
+				2BBB0E7722CEF23B007AA397 /* Sources */,
+				2BBB0E7822CEF23B007AA397 /* Frameworks */,
+				2BBB0E7922CEF23B007AA397 /* Resources */,
+				B7DF15BDFCCEE71EFAF54CED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXChatDemo;
+			productName = LXChatDemo;
+			productReference = 2BBB0E7B22CEF23B007AA397 /* LXChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBB0E9222CEF23C007AA397 /* LXChatDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBB0EAA22CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemoTests" */;
+			buildPhases = (
+				2BBB0E8F22CEF23C007AA397 /* Sources */,
+				2BBB0E9022CEF23C007AA397 /* Frameworks */,
+				2BBB0E9122CEF23C007AA397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBB0E9522CEF23C007AA397 /* PBXTargetDependency */,
+			);
+			name = LXChatDemoTests;
+			productName = LXChatDemoTests;
+			productReference = 2BBB0E9322CEF23C007AA397 /* LXChatDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBB0E9D22CEF23C007AA397 /* LXChatDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBB0EAD22CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemoUITests" */;
+			buildPhases = (
+				2BBB0E9A22CEF23C007AA397 /* Sources */,
+				2BBB0E9B22CEF23C007AA397 /* Frameworks */,
+				2BBB0E9C22CEF23C007AA397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBB0EA022CEF23C007AA397 /* PBXTargetDependency */,
+			);
+			name = LXChatDemoUITests;
+			productName = LXChatDemoUITests;
+			productReference = 2BBB0E9E22CEF23C007AA397 /* LXChatDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBB0E7322CEF23B007AA397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = manman;
+				TargetAttributes = {
+					2BBB0E7A22CEF23B007AA397 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2BBB0E9222CEF23C007AA397 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2BBB0E7A22CEF23B007AA397;
+					};
+					2BBB0E9D22CEF23C007AA397 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2BBB0E7A22CEF23B007AA397;
+					};
+				};
+			};
+			buildConfigurationList = 2BBB0E7622CEF23B007AA397 /* Build configuration list for PBXProject "LXChatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBB0E7222CEF23B007AA397;
+			productRefGroup = 2BBB0E7C22CEF23B007AA397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBB0E7A22CEF23B007AA397 /* LXChatDemo */,
+				2BBB0E9222CEF23C007AA397 /* LXChatDemoTests */,
+				2BBB0E9D22CEF23C007AA397 /* LXChatDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBB0E7922CEF23B007AA397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBB0E8B22CEF23C007AA397 /* LaunchScreen.storyboard in Resources */,
+				2B8BBE1422D34A1D007F4E85 /* chat.json in Resources */,
+				2BBB0E8822CEF23C007AA397 /* Assets.xcassets in Resources */,
+				2BBB0E8622CEF23B007AA397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E9122CEF23C007AA397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E9C22CEF23C007AA397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98C6475543203AFDA50E37E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXChatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DF15BDFCCEE71EFAF54CED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LXChatDemo/Pods-LXChatDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXChatDemo/Pods-LXChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBB0E7722CEF23B007AA397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4C37DA22D48983001068A6 /* LXChatMessageTextCell.m in Sources */,
+				2BBB0E8322CEF23B007AA397 /* ViewController.m in Sources */,
+				2B4C37D422D47FCB001068A6 /* LXChatImageCell.m in Sources */,
+				2BBB0EB322CEFA83007AA397 /* LXNavController.m in Sources */,
+				2BBB0E8E22CEF23C007AA397 /* main.m in Sources */,
+				2BBB0EB922CEFCD8007AA397 /* LXChatController.m in Sources */,
+				2BBB0EB622CEFC9B007AA397 /* LXBaseController.m in Sources */,
+				2B4C37D722D48899001068A6 /* LXChatBaseCell.m in Sources */,
+				2B8BBE1122D338AC007F4E85 /* LXChatModel.m in Sources */,
+				2B4C37DD22D48EEB001068A6 /* LXChatBaseCell+CellIdentifier.m in Sources */,
+				2BBB0E8022CEF23B007AA397 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E8F22CEF23C007AA397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBB0E9822CEF23C007AA397 /* LXChatDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBB0E9A22CEF23C007AA397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBB0EA322CEF23C007AA397 /* LXChatDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBB0E9522CEF23C007AA397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBB0E7A22CEF23B007AA397 /* LXChatDemo */;
+			targetProxy = 2BBB0E9422CEF23C007AA397 /* PBXContainerItemProxy */;
+		};
+		2BBB0EA022CEF23C007AA397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBB0E7A22CEF23B007AA397 /* LXChatDemo */;
+			targetProxy = 2BBB0E9F22CEF23C007AA397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BBB0E8422CEF23B007AA397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBB0E8522CEF23B007AA397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BBB0E8922CEF23C007AA397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBB0E8A22CEF23C007AA397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBB0EA522CEF23C007AA397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BBB0EA622CEF23C007AA397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBB0EA822CEF23C007AA397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 753C8D98127776196F9D93DD /* Pods-LXChatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUSQNMQCH7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXChatDemo/LXChat.pch";
+				INFOPLIST_FILE = LXChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BBB0EA922CEF23C007AA397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E24948F10BC96A5B4A102C /* Pods-LXChatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUSQNMQCH7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXChatDemo/LXChat.pch";
+				INFOPLIST_FILE = LXChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BBB0EAB22CEF23C007AA397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXChatDemo.app/LXChatDemo";
+			};
+			name = Debug;
+		};
+		2BBB0EAC22CEF23C007AA397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXChatDemo.app/LXChatDemo";
+			};
+			name = Release;
+		};
+		2BBB0EAE22CEF23C007AA397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXChatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXChatDemo;
+			};
+			name = Debug;
+		};
+		2BBB0EAF22CEF23C007AA397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXChatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manman.LXChatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXChatDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBB0E7622CEF23B007AA397 /* Build configuration list for PBXProject "LXChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBB0EA522CEF23C007AA397 /* Debug */,
+				2BBB0EA622CEF23C007AA397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBB0EA722CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBB0EA822CEF23C007AA397 /* Debug */,
+				2BBB0EA922CEF23C007AA397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBB0EAA22CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBB0EAB22CEF23C007AA397 /* Debug */,
+				2BBB0EAC22CEF23C007AA397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBB0EAD22CEF23C007AA397 /* Build configuration list for PBXNativeTarget "LXChatDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBB0EAE22CEF23C007AA397 /* Debug */,
+				2BBB0EAF22CEF23C007AA397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBB0E7322CEF23B007AA397 /* Project object */;
+}
